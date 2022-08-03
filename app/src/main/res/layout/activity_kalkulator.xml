@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="28dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editTextLayar"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textSize="32dp"
+                android:background="@drawable/kustom"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kustom"
+                android:text="8"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kustom"
+                android:text="9"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/buttonTambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="32dp"
+                android:background="@drawable/kustom"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/buttonKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/buttonBagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/buttonSamadengan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/buttonKali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="×"
+                android:background="@drawable/kustom"
+                android:textSize="32dp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

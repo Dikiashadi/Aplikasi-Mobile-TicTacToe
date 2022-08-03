@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Diki App</string>
+    <string name="login">LOGIN</string>
+    <string name="register">register</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="tv_register">REGISTER</string>
+
+
+
+
+</resources>
